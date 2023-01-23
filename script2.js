@@ -64,9 +64,9 @@ const sbPlayer = [
     "birthArea": "関東",
     },
     {
-    "Player's Name": "甲斐",
+    "Player's Name": "津留",
     "position": "内野手",
-    "hitting": "右打ち",
+    "hitting": "左打ち",
     "birthArea": "九州・沖縄",
     },
     {
@@ -128,7 +128,8 @@ thead.appendChild(row1);
 //見た目を調整
 table.style.width = "100%";
 table.style.border = "solid 1px";
-head1.style.border = "solid 1px";
+// document.getElementsByTagName("th").style.border = "solid 1px";
+
 
 
 
@@ -148,6 +149,7 @@ row2.appendChild(row2Data2);
 row2.appendChild(row2Data3);
 row2.appendChild(row2Data4);
 thead.appendChild(row2);
+row2.style.textAlign = "center";
 
 let row3 = document.createElement("tr");
 let row3Data1 = document.createElement("td");
@@ -164,6 +166,8 @@ row3.appendChild(row3Data2);
 row3.appendChild(row3Data3);
 row3.appendChild(row3Data4);
 thead.appendChild(row3);
+row3.style.textAlign = "center";
+
 
 let row4 = document.createElement("tr");
 let row4Data1 = document.createElement("td");
@@ -180,6 +184,8 @@ row4.appendChild(row4Data2);
 row4.appendChild(row4Data3);
 row4.appendChild(row4Data4);
 thead.appendChild(row4);
+row4.style.textAlign = "center";
+
 
 let row5 = document.createElement("tr");
 let row5Data1 = document.createElement("td");
@@ -196,6 +202,7 @@ row5.appendChild(row5Data2);
 row5.appendChild(row5Data3);
 row5.appendChild(row5Data4);
 thead.appendChild(row5);
+row5.style.textAlign = "center";
 
 let row6 = document.createElement("tr");
 let row6Data1 = document.createElement("td");
@@ -212,6 +219,7 @@ row6.appendChild(row6Data2);
 row6.appendChild(row6Data3);
 row6.appendChild(row6Data4);
 thead.appendChild(row6);
+row6.style.textAlign = "center";
 
 let row7 = document.createElement("tr");
 let row7Data1 = document.createElement("td");
@@ -228,6 +236,7 @@ row7.appendChild(row7Data2);
 row7.appendChild(row7Data3);
 row7.appendChild(row7Data4);
 thead.appendChild(row7);
+row7.style.textAlign = "center";
 
 let row8 = document.createElement("tr");
 let row8Data1 = document.createElement("td");
@@ -244,6 +253,7 @@ row8.appendChild(row8Data2);
 row8.appendChild(row8Data3);
 row8.appendChild(row8Data4);
 thead.appendChild(row8);
+row8.style.textAlign = "center";
 
 let row9 = document.createElement("tr");
 let row9Data1 = document.createElement("td");
@@ -260,6 +270,7 @@ row9.appendChild(row9Data2);
 row9.appendChild(row9Data3);
 row9.appendChild(row9Data4);
 thead.appendChild(row9);
+row9.style.textAlign = "center";
 
 let row10 = document.createElement("tr");
 let row10Data1 = document.createElement("td");
@@ -276,6 +287,9 @@ row10.appendChild(row10Data2);
 row10.appendChild(row10Data3);
 row10.appendChild(row10Data4);
 thead.appendChild(row10);
+row10.style.textAlign = "center";
+
+// document.getElementsByTagName("td").style.border = "solid 1px";
 
 //リストボックスで選択された内容を表示する関数作成
 // select1.onchange = function(){
