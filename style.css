@@ -1,0 +1,53 @@
+
+h1{
+    text-align: center;
+    background-color:lightslategray;
+}
+
+#name{
+    text-align: right;
+    font-size: smaller;
+}
+
+.arrow{
+    text-align:center;
+    font-size:xx-large;
+    font-weight: bold;
+}
+
+
+.imagepic{
+    text-align: center; 
+}
+
+
+.survey{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border: 2px solid black;
+    padding: 50px;
+    text-align: center;
+}
+
+#startButton{
+    margin: 0px auto;
+    padding: 10px;
+    font-size: 12px;
+    width: 25%;
+    background-color: red;
+    color:white;
+    text-align: center;
+    font-size: large;
+    cursor: pointer;
+} 
+
+.DB{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 30px;
+    border-top: 3px dashed black;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}

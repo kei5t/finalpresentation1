@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>アンケート回答ページ</title>
+        <link rel="stylesheet" type="text/css" href="style_subPage.css" />
+    </head>
+
+    <body>
+        <div>
+            <p id="ques1">【設問1】　以下のスポーツに対する好みを教えてください！</p>
+
+            <table>
+                <tr>
+                    <th>スポーツ名</th> <th>好き</th> <th>どちらでもない</th> <th>好きではない</th> <th>そのスポーツを知らない</th>
+                </tr>
+
+                <tr>
+                    <td>野球</td> <td><input type="radio" name="baseball" onclick="quesDisp();"></td> <td><input type="radio" name="baseball" onclick="quesDisp();"></td> <td><input type="radio" name="baseball" id="dislike01" onclick="quesDisp();"></td> <td><input type="radio" name="baseball" onclick="quesDisp();"></td>
+                </tr>
+
+                <tr>
+                    <td>サッカー</td> <td><input type="radio" name="soccer" onclick="quesDisp();"></td> <td><input type="radio" name="soccer" onclick="quesDisp();"></td> <td><input type="radio" name="soccer" id="dislike02" onclick="quesDisp();"></td> <td>ー</td>
+                </tr>
+
+                <tr>
+                    <td>バスケ</td> <td><input type="radio" name="bascket" onclick="quesDisp();"></td> <td><input type="radio" name="bascket" onclick="quesDisp();"></td> <td><input type="radio" name="bascket" id="dislike03" onclick="quesDisp();"></td> <td><input type="radio" name="bascket" onclick="quesDisp();"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="addQues" style="display: none;">
+            <p id="ques1">【設問2】　その理由を教えてください！！</p>
+            <p><input type="text" id="FA"></p>
+        </div>
+
+        <div class="survey">
+            <p id="startButton"><a href="FinalPresentation_thankyouPage.html">回答する</a></p>
+        </div>
+    
+    </body>
+
+    <script type="text/javascript" src="script.js"></script>
